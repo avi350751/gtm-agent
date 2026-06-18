@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GTM Content Studio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <div class="logo">GTM<span>Studio</span></div>
+      <p class="tagline">Turn a product, feature, or event into a full go-to-market suite — grounded in your own docs.</p>
+    </header>
+
+    <section class="composer">
+      <div class="composer-row">
+        <input id="topic" type="text" autocomplete="off"
+               placeholder="e.g. VectorForge 2.0 Launch Webinar" />
+        <button id="go">Generate</button>
+      </div>
+      <div class="examples">
+        <span>Try:</span>
+        <button class="chip" data-topic="VectorForge 2.0 Launch Webinar">VectorForge 2.0 Webinar</button>
+        <button class="chip" data-topic="Sentinel AI launch">Sentinel AI launch</button>
+        <button class="chip" data-topic="PromptPilot CI gates">PromptPilot CI gates</button>
+      </div>
+    </section>
+
+    <div id="loading" class="loading" hidden>
+      <div class="spinner" aria-hidden="true"></div>
+      <div id="loading-msg">Building your content suite…</div>
+    </div>
+
+    <div id="error" class="error" hidden></div>
+
+    <main id="results" class="results" hidden></main>
+  </div>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
