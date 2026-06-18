@@ -1,0 +1,5 @@
+event_name,date,location,description,audience,talking_points
+AI DevWorld 2026,2026-10-12,"San Francisco, CA + virtual","Three-day conference on production AI: RAG, agents, evals, and LLMOps",AI engineers and engineering leaders,"Live VectorForge 2.0 demo; PromptPilot CI workshop; eval best-practices panel"
+VectorForge 2.0 Launch Webinar,2026-08-05,Virtual,"60-minute launch session unveiling hybrid retrieval and one-click RAG evaluation",ML engineers evaluating vector databases,"What's new in 2.0; hybrid BM25+dense benchmarks; migration guide; live Q&A"
+QE Summit India,2026-11-03,"Bengaluru, India","Quality engineering summit focused on AI-driven testing and test automation at scale",QA leads, SDETs, and test architects,"Sentinel AI self-healing demo; flaky-test economics; building an AI TestOps practice"
+PromptPilot Office Hours,2026-09-18,Virtual,"Monthly hands-on session helping teams add prompt evals to their CI pipelines",LLM app developers,"Setting up CI gates; regression suites; reading eval dashboards; common pitfalls"
